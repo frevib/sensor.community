@@ -25,7 +25,7 @@ SDS011 Pin 1 -> Pin D1 / GPIO5
 SDS011 Pin 2 -> Pin D2 / GPIO4
 SDS011 Pin 3 -> GND
 SDS011 Pin 4 -> unused
-SDS011 Pin 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
+SDS011 Pin 5 -> VU or VV (NodeMCU v3) / VIN (NodeMCU v1,v2)
 SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
@@ -47,10 +47,10 @@ The trick is to put the soldering iron tip to the pin, warm it up a little, and 
 ### Wire the BME280
 Pins are numbered from LEFT to RIGHT.
 ```bash
-VIN -> Pin 3V3 (3.3V)
-GND->  GND/G
-SDA -> PIN D3
-SCL -> Pin D4
+VIN or VCC -> Pin 3V3 (3.3V)
+GND        -> GND/G
+SDA        -> PIN D3
+SCL        -> Pin D4
 ```
 
 ### Tie everything together
